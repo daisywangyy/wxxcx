@@ -1,0 +1,22 @@
+<view class="container">
+  <image class="logo" src="/image/icon_logo.png" mode="widthFix" style="margin-bottom:40px"></image>
+  <view class="input-base">
+    <image class="input-image-base" src="/image/icon-idcard.png" mode="widthFix"></image>
+    <input class="idcard" bindinput="inputIdCards" placeholder-style="font-size: 15px; font-color:#999999" placeholder="请输入身份证号" type="idcard" maxlength="18" cursor-spacing="10px" focus="true" />
+  </view>
+  <view class="line" />
+  <view class="input-base">
+    <image class="input-image-base" src="/image/icon-phone.png" mode="widthFix"></image>
+    <input class="idcard" bindinput="inputPhone" placeholder-style="font-size: 15px; font-color:#999999" placeholder="请输入手机号" type="number" maxlength="11" cursor-spacing="10px" />
+  </view>
+  <view class="line" />
+  <view class="input-base">
+    <image class="input-image-base" src="/image/icon-code.png" mode="widthFix"></image>
+    <input class="idcard" bindinput="inputCode" style="width:70%" placeholder-style="font-size: 15px; font-color:#999999" placeholder="请输入验证码" type="number" maxlength="11" cursor-spacing="10px" />
+    <button class="label-button" bindtap="getCodeEvent" >获取</button>
+  </view>
+  <view class="line" />
+
+  <button wx:if = "{{input_id_cards == '' || input_phone == '' || input_code == '' }}" class="enable-button" style="margin-top:40px">登录</button>
+  <button wx:else class="normal-button" bindtap="loginEvent" hover-class="down-button" style="margin-top:40px">登录</button>
+</view>

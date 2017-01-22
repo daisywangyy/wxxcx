@@ -1,0 +1,8 @@
+/* pages/member/second/secondMember.wxss */
+@import "../../achievement/achievement.wxss";
+
+page {
+  background-color: #eee;
+  font-size: 14px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

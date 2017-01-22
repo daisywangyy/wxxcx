@@ -1,0 +1,30 @@
+
+<!--pages/reimbursement/reimbursement.wxml-->
+<view>
+  <view class="line-margin12" />
+  <view class="center-view-base">
+    <view class="center-view">
+      <label class="center-view-title">一级榕枝</label>
+      <label class="center-view-info">5000</label>
+    </view>
+    <view class="center-view-line"></view>
+    <view class="center-view">
+      <label class="center-view-title">二级榕枝</label>
+      <label class="center-view-info">0</label>
+    </view>
+  </view>
+  <view class="from_title_base">
+    <image class="from_title_image " src="/image/dot.png" mode="widthFix"></image>
+    <label class="from_title_text">我的榕枝</label>
+  </view>
+  <view wx:for="{{array}}" wx:for-item="item">
+    <view class="setting_base" hover="true" hover-class="setting_base_down" data-name="{{item.name}}" bindtap="gotoDetailInfo">
+      <label class="setting_base_text" style="margin-left:16px">{{item.name}}</label>
+      <view class="setting_base_title">
+        <label class="setting_info_text">{{item.phone}}</label>
+        <image class="setting_base_arrow" src="/image/icon_common_item_right_arrow.png " mode="widthFix "></image>
+      </view>
+    </view>
+    <view class="line" />
+  </view>
+</view>

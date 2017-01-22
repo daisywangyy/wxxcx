@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/member/member",
+    "pages/member/second/secondMember",
+    "pages/connectUs/callback/callback",
+    "pages/connectUs/helpCenter/helpCenter",
+    "pages/connectUs/connectUs",
+    "pages/achievement/achievement",
+    "pages/reimbursement/reimbursement",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fb7235",
+    "navigationBarTitleText": "善林财富",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#ff9f00",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "积分",
+        "iconPath": "/image/icon_main_tab_home_g.png",
+        "selectedIconPath": "/image/icon_main_tab_home_y.png"
+      },
+      {
+        "pagePath": "pages/achievement/achievement",
+        "text": "业绩",
+        "iconPath": "/image/icon_main_tab_more_g2.png",
+        "selectedIconPath": "/image/icon_main_tab_more_y2.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "text": "榕枝",
+        "iconPath": "/image/icon_main_tab_account_g.png",
+        "selectedIconPath": "/image/icon_main_tab_account_y.png"
+      },
+      {
+        "pagePath": "pages/reimbursement/reimbursement",
+        "text": "报销",
+        "iconPath": "/image/icon_main_tab_preferred_g.png",
+        "selectedIconPath": "/image/icon_main_tab_preferred_y.png"
+      },
+      {
+        "pagePath": "pages/connectUs/connectUs",
+        "text": "更多",
+        "iconPath": "/image/icon_main_tab_more_g.png",
+        "selectedIconPath": "/image/icon_main_tab_more_y.png"
+      }
+    ]
+  }
+}

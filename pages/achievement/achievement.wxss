@@ -1,0 +1,96 @@
+
+page {
+  background-color: #eee;
+  font-size: 14px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.jifen_view{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.jifen_info{
+  height: 20px;
+  color: black;
+  margin-right: 16px;
+}
+
+.jifen_image{
+  width: 10px;
+  height: 10px;
+}
+
+.item_base{
+  background: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.item_base_down{
+  padding: 14px;
+  background: #eee;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.item_first_line_base{
+  height: 25px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.item_first_line_name{
+  color: #666;
+  font-size: 16px;
+}
+
+.item_first_line_info_base{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.item_first_line_info{
+  color: red;
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+.item_first_line_info_unit{
+  color: #666;
+  font-size: 14px;
+}
+
+.item_second_line_base{
+  height: 25px;
+  display: flex;
+  flex-flow: row;
+  margin-top: 6px;
+  justify-content: space-between;
+}
+
+.item_second_line_time{
+  color: #999;
+  font-size: 14px;
+}
+
+.item_second_line_data{
+  color: #666;
+  font-size: 14px;
+}
+
+.item_second_line_data_line{
+  width: 1px;
+  height: 16px;
+  background-color:#666;
+  margin-left: 6px;
+  margin-right: 6px;
+}

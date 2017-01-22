@@ -1,0 +1,45 @@
+<view>
+  <view class="line-margin12" />
+  <view class="setting_base"  hover="true" hover-class="setting_base_down" bindtap="gotoHelpCenter">
+    <view class="setting_base_title">
+      <image class=" setting_base_image " src="/image/icon_help_center.png " mode="widthFix">
+      </image>
+      <label class="setting_base_text ">帮助中心</label>
+    </view>
+    <image class="setting_base_arrow " src="/image/icon_common_item_right_arrow.png " mode="widthFix "></image>
+  </view>
+  <view class="line " />
+  <view class="line-margin12 " />
+  <view class="setting_base " hover="true" hover-class="setting_base_down" bindtap = "callPhone">
+    <view class="setting_base_title">
+      <image class="setting_base_image " src="/image/icon_setting_phone.png " mode="widthFix "></image>
+      <label class="setting_base_text ">客服电话</label>
+    </view>
+    <label class="setting_info_text ">400-677-3000</label>
+  </view>
+  <view class="line " />
+  <view class="setting_base " hover="true" hover-class="setting_base_down">
+    <view class="setting_base_title">
+      <image class="setting_base_image " src="/image/icon_setting_email.png " mode="widthFix "></image>
+      <label class="setting_base_text ">客服邮箱</label>
+    </view>
+    <label class="setting_info_text ">574705453@qq.com</label>
+  </view>
+  <view class="line " />
+  <view class="setting_base " hover="true" hover-class="setting_base_down">
+    <view class="setting_base_title">
+      <image class="setting_base_image " src="/image/icon_setting_time.png " mode="widthFix "></image>
+      <label class="setting_base_text ">服务时间</label>
+    </view>
+    <label class="setting_info_text ">工作日 9:00-17:30</label>
+  </view>
+  <view class="line " />
+  <view class="setting_base " hover="true" hover-class="setting_base_down" bindtap = "gotoCallback">
+    <view class="setting_base_title">
+      <image class="setting_base_image " src="/image/icon_setting_callback.png " mode="widthFix "></image>
+      <label class="setting_base_text ">意见反馈</label>
+    </view>
+    <image class="setting_base_arrow " src="/image/icon_common_item_right_arrow.png " mode="widthFix "></image>
+  </view>
+  <view class="line " />
+</view>

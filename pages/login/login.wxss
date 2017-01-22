@@ -1,0 +1,50 @@
+/**login.wxss**/
+
+.logo {
+  width: 150px;
+  height: 150px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-clip: content-box;
+}
+
+.input-base{
+  width: 80%;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display:  flex;
+  align-items: center;
+}
+
+.input-image-base{
+  width: 25px;
+  height: 25px;
+  margin-left: 8px 
+}
+
+.idcard {
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  color: #d11219;
+}
+
+.line{
+  width: 80%;
+  height: 1px;
+  background-color: #999999
+}
+
+.label-button{
+  width: 30%;
+  height: 30px;
+  float: right;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  background-color: #ffffff; 
+}

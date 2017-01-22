@@ -1,0 +1,38 @@
+
+<!--pages/reimbursement/reimbursement.wxml-->
+<view>
+  <view class="line-margin12" />
+  <view class="center-view-base">
+    <view class="center-view">
+      <label class="center-view-title">积分总数</label>
+      <label class="center-view-info">5000</label>
+    </view>
+    <view class="center-view-line"></view>
+    <view class="center-view">
+      <label class="center-view-title">已兑换积分</label>
+      <label class="center-view-info">0</label>
+    </view>
+  </view>
+  <view class="from_title_base">
+    <image class="from_title_image " src="/image/dot.png" mode="widthFix"></image>
+    <label class="from_title_text">我的报销</label>
+  </view>
+  <view wx:for="{{array}}" wx:for-item="item">
+    <view class="item_base" hover="true" hover-class="item_base_down">
+      <view class="item_first_line_base">
+        <text class="item_first_line_name">{{item.title}}</text>
+        <view class="item_first_line_info_base">
+          <text class="item_first_line_info">{{item.acount}}</text>
+          <text class="item_first_line_info_unit">积分</text>
+        </view>
+      </view>
+      <view class="item_second_line_base">
+        <text class="item_second_line_time">票据单号:{{item.pNumber}}</text>
+        <view class="item_first_line_info_base">
+          <text class="item_second_line_data">{{item.time}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="line" />
+  </view>
+</view>

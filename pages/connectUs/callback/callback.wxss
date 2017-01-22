@@ -1,0 +1,12 @@
+/* /pages/connectUs/callback/callback.wxss */
+.callback_input{
+    width:80%;
+    height: 130px;
+    margin: 5%;
+    border: 3rpx solid #ccc;
+    border-radius: 3%;
+    background-color: white; 
+    font-size: 14px;
+    color:#666;
+    padding : 5%;
+}

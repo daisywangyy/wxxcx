@@ -1,0 +1,44 @@
+
+<!--index.wxml-->
+<view>
+  <view class="top-view">
+    <label class="text_title">剩余积分</label>
+    <label class="text_info">5000</label>
+  </view>
+  <view class="center-view-base">
+    <view class="center-view">
+      <label class="center-view-title">积分总数</label>
+      <label class="center-view-info" style="color:red">5000</label>
+    </view>
+    <view class="center-view-line"></view>
+    <view class="center-view">
+      <label class="center-view-title">已兑换积分</label>
+      <label class="center-view-info">0</label>
+    </view>
+  </view>
+  <view class="from_title_base">
+    <image class="from_title_image " src="/image/dot.png" mode="widthFix"></image>
+    <label class="from_title_text">积分来源</label>
+  </view>
+  <view class="center-view-base">
+    <view class="center-view" style="width:33%">
+      <label class="center-view-title">个人业绩积分</label>
+      <label class="center-view-info">5000</label>
+    </view>
+    <view class="center-view-line"></view>
+    <view class="center-view" style="width:33%">
+      <label class="center-view-title">下线提供积分</label>
+      <label class="center-view-info">5000</label>
+    </view>
+    <view class="center-view-line"></view>
+    <view class="center-view" style="width:33%">
+      <label class="center-view-title">奖励积分</label>
+      <label class="center-view-info">50</label>
+    </view>
+  </view>
+  <view class="enter_title_base">
+    <image class="from_title_image " src="/image/dot.png" mode="widthFix"></image>
+    <label class="from_title_text">失效积分</label>
+    <text class="enter_text_info">50</text>
+  </view>
+</view>

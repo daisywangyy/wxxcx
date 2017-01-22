@@ -1,0 +1,9 @@
+<!--/pages/connectUs/callback/callback.wxml-->
+<view>
+  <textarea class="callback_input" maxlength="500" placeholder="请写下您的宝贵意见或建议" bindinput="inputCallback" >
+  </textarea>
+
+  <button wx:if = "{{input_id_cards == '' || input_phone == '' || input_code == '' }}" class="enable-button" style="margin-top:20px; width:90%">提交</button>
+  <button wx:else class="normal-button" bindtap="loginEvent" hover-class="down-button" style="margin-top:20px;width:90%"
+   bindtap="submitEvent">提交</button>
+</view>
